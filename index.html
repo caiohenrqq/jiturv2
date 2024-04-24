@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- DaisyUI & TailwindCSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <title>Jitur | Agência de Turismo</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+
+    <section
+      class="h-screen bg-[#FAF9F6] flex flex-col justify-center items-center"
+      id="home"
+    >
+      <!-- Centralizar Texto -->
+      <div class="flex flex-col items-center justify-center flex-grow">
+        <h1 class="text-[#1E1E1E] font-bold tracking-[0.3px] text-2xl">
+          Onde seus sonhos querem te levar?
+        </h1>
+      </div>
+
+      <!-- Posicionar flecha SVG no final da tela -->
+      <div class="absolute mt-[30vh]">
+        <button onclick="an" class="hover:scale-125 animate-bounce">
+          <img src="/css/icons/fi-rr-arrow-down.svg" alt="" />
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="h-screen bg-[#FAF9F6] flex flex-col justify-center items-center"
+      id="estado"
+    >
+      <!-- Centralizar Texto -->
+      <div class="flex flex-col items-center justify-center flex-grow">
+        <h1 class="text-[#1E1E1E] font-bold tracking-[0.3px] text-2xl">
+          Para que estado você quer ir?
+        </h1>
+      </div>
+    </section>
+  </body>
+</html>
