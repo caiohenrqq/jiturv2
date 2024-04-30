@@ -51,10 +51,16 @@
     >
       <!-- Centralizar Texto -->
       <div class="flex flex-col items-center justify-center flex-grow">
-        <h1 id="textoEstado" data-aos="fade-up" data-aos-duration="3000" class="text-[#1E1E1E] font-bold tracking-[0.3px] text-2xl">
-          Para que estado você quer ir?
-        </h1>
-      </div>
+        <div class="flex justify-between w-full">
+          <h1 id="textoEstado" data-aos="fade-up" data-aos-duration="1000" class="text-[#1E1E1E] font-bold tracking-[0.3px] text-2xl mr-2">
+            Para que estado você quer ir? 
+          </h1>
+          <select data-aos="fade-up" data-aos-duration="1000" name="text-[#1E1E1E] tracking-[0.3px] text-2xl" id="campoEstados">
+            Estado
+            <option value="">Estado</option>
+          </select>
+        </div>
+      </div>      
     </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/js/script.js"></script>
